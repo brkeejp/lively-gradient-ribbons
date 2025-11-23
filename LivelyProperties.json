@@ -1,0 +1,97 @@
+{
+	"__HEADER_BACKGROUND__": {
+		"type": "label",
+		"value": "Live Background"
+	},
+	"backgroundColor": {
+		"text": "Background Color",
+		"type": "color",
+		"value": "#000000"
+	},
+	"ribbonsCount": {
+		"max": 30,
+		"min": 0,
+		"step": 1,
+		"text": "Ribbons Count",
+		"type": "slider",
+		"help": "Control how many ribbons are displayed",
+		"value": 6
+	},
+	"ribbonsDiversity": {
+		"max": 2,
+		"min": 0,
+		"step": 0.05,
+		"text": "Ribbons Diversity",
+		"type": "slider",
+		"help": "Control the diversity of ribbons displayed",
+		"value": 1.2
+	},
+	"__HEADER_CENTER__": {
+		"type": "label",
+		"value": "Information Center"
+	},
+	"showCenter": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Display information center"
+	},
+	"showClock": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Display clock widget"
+	},
+	"clockType": {
+		"type": "dropdown",
+		"value": 0,
+		"text": "Type",
+		"items": [
+			"Date & Clock with seconds",
+			"Date & Clock",
+			"Clock"
+		]
+	},
+	"animateSeconds": {
+		"type": "checkbox",
+		"value": false,
+		"text": "Animate colon for seconds"
+	},
+	"showWeather": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Display weather widget"
+	},
+	"weatherIcon": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Display weather icon"
+	},
+	"showMedia": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Display media widget"
+	},
+	"mediaCover": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Display media cover"
+	},
+	"mediaTextSlide": {
+		"type": "checkbox",
+		"value": true,
+		"text": "Slide long texts"
+	},
+	"mediaTextSlideDuration": {
+		"max": 30,
+		"min": 0,
+		"step": 0.5,
+		"text": "Text Slide Duration",
+		"type": "slider",
+		"help": "Control how long text slide completed",
+		"value": 12
+	},
+	"weatherApiKey": {
+		"text": "OpenWeather API Key",
+		"type": "textbox",
+		"value": ""
+	}
+}

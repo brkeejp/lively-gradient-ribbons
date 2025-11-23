@@ -1,0 +1,17 @@
+{
+  "AppVersion": "1.2.121",
+  "Title": "Gradient Ribbons With Media & Clock",
+  "Thumbnail": "f1xmy0lt.vsu.jpg",
+  "Preview": "1fvnskpb.rqc.gif",
+  "Desc": "A colorful gradient ribbons wallpaper with system now playing and clock display.",
+  "Author": "Berk Ege (brkee.jp)",
+  "License": "MIT",
+  "Contact": "brkee.jp@gmail.com",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--system-nowplaying --audio",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": ["gradient", "media", "clock"],
+  "Version": 1
+}
