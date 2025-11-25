@@ -1,8 +1,7 @@
 /**
- * Gradient Ribbons With Media & Clock
- * Copyright (c) 2025 Berk Ege (brkeejp) All rights reserved.
+ * Lively Gradient Ribbons
+ * Copyright (c) 2025 Berk Ege (brkee) All rights reserved.
  * Contact Information: brkee.jp@gmail.com
- * Contributed to Lively Wallpaper under MIT License.
  */
 
 const translations = {

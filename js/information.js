@@ -1,8 +1,7 @@
 /**
- * Gradient Ribbons With Media & Clock
- * Copyright (c) 2025 Berk Ege (brkeejp) All rights reserved.
+ * Lively Gradient Ribbons
+ * Copyright (c) 2025 Berk Ege (brkee) All rights reserved.
  * Contact Information: brkee.jp@gmail.com
- * Contributed to Lively Wallpaper under MIT License.
  */
 
 const config = {
@@ -34,6 +33,7 @@ function livelyPropertyListener(name, val) {
 		updateClock();
 		updateWeather();
 		updateMarquee();
+		updateMedia();
 		updateInformationCenter();
 		updateRibbonCount();
 	}
@@ -146,22 +146,24 @@ function livelyCurrentTrack(data) {
 		document.querySelector('#mediaArtist>p').textContent = artist;
 
 		updateMarquee();
+		document.querySelector('#media').dataset.playing = true;
 		document.querySelector('#media').style.display = "flex";
 	} else {
+		document.querySelector('#media').dataset.playing = false;
 		document.querySelector('#media').style.display = 'none';
 	}
 }
 
 function updateMedia() {
-	if (config.showMedia) {
-		if (config.mediaCover) {
-			document.querySelector('#mediaThumb').style.display = "block";
-		} else {
-			document.querySelector('#mediaThumb').style.display = "none";
-		}
+	if (document.querySelector('#media').dataset.playing === 'true' && config.showMedia) {
 		document.querySelector('#media').style.display = "flex";
 	} else {
 		document.querySelector('#media').style.display = 'none';
+	}
+	if (config.mediaCover) {
+		document.querySelector('#mediaThumb').style.display = "block";
+	} else {
+		document.querySelector('#mediaThumb').style.display = "none";
 	}
 }
 
