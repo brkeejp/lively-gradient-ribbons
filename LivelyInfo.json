@@ -7,8 +7,9 @@
   "Author": "Berk Ege (brkee)",
   "License": "SEE LICENSE IN LICENSE.MD",
   "Contact": "brkee.jp@gmail.com",
-  "Type": 2,
+  "Type": 1,
   "FileName": "index.html",
   "Arguments": "--system-nowplaying --audio",
   "Tags": ["gradient", "media", "clock"]
+
 }
