@@ -14,7 +14,7 @@ const config = {
 	showWeather: true,
 	showMedia: true,
 
-	clockType: 0,
+	clockType: 1,
 	animateSeconds: true,
 	weatherIcon: true,
 	mediaCover: true,
@@ -94,7 +94,7 @@ setInterval(updateClock, 1000); updateClock();
 
 // Weather
 function updateWeather() {
-	if (config.showWeather) {
+	if (config.showCenter && config.showWeather) {
 		if (!config.weatherApiKey || config.weatherApiKey === "") {
 			return document.querySelector('#weatherText').textContent = 'No API Key';
 		}

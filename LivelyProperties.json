@@ -42,7 +42,7 @@
 	},
 	"clockType": {
 		"type": "dropdown",
-		"value": 0,
+		"value": 1,
 		"text": "Type",
 		"items": [
 			"Date & Clock with seconds",
@@ -52,7 +52,7 @@
 	},
 	"animateSeconds": {
 		"type": "checkbox",
-		"value": false,
+		"value": true,
 		"text": "Animate colon for seconds"
 	},
 	"showWeather": {
